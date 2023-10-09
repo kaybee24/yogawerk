@@ -47,7 +47,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1.15rem;
+  --bs-body-font-size: 1.25rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -236,6 +236,13 @@ a:hover {
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
+}
+
+a.white {
+  color: #fff;
+}
+a.white:hover {
+  color: #f2f2f2;
 }
 
 pre,
@@ -10737,7 +10744,7 @@ hr.divider-light {
 }
 
 header.masthead {
-  padding-top: 15rem;
+  padding-top: 20rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(142, 122, 107, 0.5) 0%, rgba(92, 77, 66, 0.5) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
